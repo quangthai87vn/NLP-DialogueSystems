@@ -1,0 +1,4 @@
+group,n,task_success_rate,avg_rows,avg_repairs,avg_oos,avg_refusals,avg_slot_f1,joint_goal_acc_rate
+movie,534,0.8558,13.44,0.174,0.311,0.522,0.97,0.8558
+navigation,466,0.9485,10.77,0.706,0.223,0.339,0.982,0.9485
+overall,1000,0.899,12.2,0.422,0.27,0.437,0.9756,0.899

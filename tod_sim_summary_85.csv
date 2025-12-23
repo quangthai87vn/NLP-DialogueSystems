@@ -1,0 +1,4 @@
+group,n,task_success_rate,avg_rows,avg_repairs,avg_confirms,avg_slot_f1,avg_state_slot_acc,joint_goal_accuracy_rate
+movie,509,0.9234,11.45,0.177,1.177,0.9847,0.9847,0.9234
+navigation,491,0.7719,8.4,0.503,1.503,0.8893,0.8893,0.7719
+overall,1000,0.849,9.95,0.337,1.337,0.9379,0.9379,0.849

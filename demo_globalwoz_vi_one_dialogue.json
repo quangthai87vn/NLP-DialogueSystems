@@ -1,0 +1,1483 @@
+{
+  "MUL0003.json": {
+    "goal": {
+      "attraction": {},
+      "hospital": {},
+      "hotel": {
+        "book": {
+          "day": "sunday",
+          "invalid": false,
+          "people": "6",
+          "stay": "4"
+        },
+        "fail_book": {},
+        "fail_info": {},
+        "info": {
+          "internet": "yes",
+          "parking": "yes",
+          "pricerange": "cheap",
+          "type": "guesthouse"
+        }
+      },
+      "police": {},
+      "restaurant": {
+        "book": {
+          "day": "sunday",
+          "invalid": false,
+          "people": "6",
+          "time": "18:45"
+        },
+        "fail_book": {},
+        "fail_info": {},
+        "info": {
+          "area": "centre",
+          "food": "italian",
+          "pricerange": "cheap"
+        }
+      },
+      "taxi": {},
+      "train": {}
+    },
+    "log": [
+      {
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "internet",
+              "yes"
+            ],
+            [
+              "type",
+              "guesthouse"
+            ]
+          ]
+        },
+        "metadata": {},
+        "span_info": [
+          [
+            "hotel-inform",
+            "type",
+            "guesthouse",
+            50,
+            63
+          ]
+        ],
+        "text": "tôi đang tìm một nơi để ở. nó phải là guesthouse và có wifi miễn phí ."
+      },
+      {
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "choice",
+              "23"
+            ],
+            [
+              "type",
+              "hotels"
+            ]
+          ],
+          "Hotel-Request": [
+            [
+              "area",
+              "?"
+            ],
+            [
+              "pricerange",
+              "?"
+            ]
+          ]
+        },
+        "metadata": {
+          "attraction": {
+            "book": {
+              "booked": []
+            },
+            "semi": {
+              "area": [],
+              "name": [],
+              "type": []
+            }
+          },
+          "hospital": {
+            "book": {
+              "booked": []
+            },
+            "semi": {
+              "department": []
+            }
+          },
+          "hotel": {
+            "book": {
+              "booked": [],
+              "day": [],
+              "people": [],
+              "stay": []
+            },
+            "semi": {
+              "area": [],
+              "internet": [
+                "yes"
+              ],
+              "name": [],
+              "parking": [],
+              "pricerange": [],
+              "stars": [],
+              "type": [
+                "guesthouse"
+              ]
+            }
+          },
+          "police": {
+            "book": {
+              "booked": []
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [],
+              "day": [],
+              "people": [],
+              "time": []
+            },
+            "semi": {
+              "area": [],
+              "food": [],
+              "name": [],
+              "pricerange": []
+            }
+          },
+          "taxi": {
+            "book": {
+              "booked": []
+            },
+            "semi": {
+              "arriveBy": [],
+              "departure": [],
+              "destination": [],
+              "leaveAt": []
+            }
+          },
+          "train": {
+            "book": {
+              "booked": [],
+              "people": []
+            },
+            "semi": {
+              "arriveBy": [],
+              "day": [],
+              "departure": [],
+              "destination": [],
+              "leaveAt": []
+            }
+          }
+        },
+        "span_info": [
+          [
+            "hotel-inform",
+            "choice",
+            "23",
+            10,
+            12
+          ],
+          [
+            "hotel-inform",
+            "type",
+            "hotels",
+            13,
+            26
+          ]
+        ],
+        "text": "có 23 hotels đáp ứng nhu cầu của bạn . bạn có muốn thu hẹp tìm kiếm của mình theo khu vực và / hoặc phạm vi giá không ?"
+      },
+      {
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "parking",
+              "yes"
+            ],
+            [
+              "pricerange",
+              "cheap"
+            ]
+          ]
+        },
+        "metadata": {},
+        "span_info": [
+          [
+            "hotel-inform",
+            "pricerange",
+            "cheap",
+            26,
+            45
+          ]
+        ],
+        "text": "tôi muốn nó là cheap và có chỗ đậu xe miễn phí ."
+      },
+      {
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "area",
+              "various"
+            ],
+            [
+              "choice",
+              "9"
+            ],
+            [
+              "type",
+              "guesthouse hotels"
+            ]
+          ],
+          "Hotel-Request": [
+            [
+              "area",
+              "?"
+            ]
+          ]
+        },
+        "metadata": {
+          "attraction": {
+            "book": {
+              "booked": []
+            },
+            "semi": {
+              "area": [],
+              "name": [],
+              "type": []
+            }
+          },
+          "hospital": {
+            "book": {
+              "booked": []
+            },
+            "semi": {
+              "department": []
+            }
+          },
+          "hotel": {
+            "book": {
+              "booked": [],
+              "day": [],
+              "people": [],
+              "stay": []
+            },
+            "semi": {
+              "area": [],
+              "internet": [
+                "yes"
+              ],
+              "name": [],
+              "parking": [
+                "yes"
+              ],
+              "pricerange": [
+                "cheap"
+              ],
+              "stars": [],
+              "type": [
+                "guesthouse"
+              ]
+            }
+          },
+          "police": {
+            "book": {
+              "booked": []
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [],
+              "day": [],
+              "people": [],
+              "time": []
+            },
+            "semi": {
+              "area": [],
+              "food": [],
+              "name": [],
+              "pricerange": []
+            }
+          },
+          "taxi": {
+            "book": {
+              "booked": []
+            },
+            "semi": {
+              "arriveBy": [],
+              "departure": [],
+              "destination": [],
+              "leaveAt": []
+            }
+          },
+          "train": {
+            "book": {
+              "booked": [],
+              "people": []
+            },
+            "semi": {
+              "arriveBy": [],
+              "day": [],
+              "departure": [],
+              "destination": [],
+              "leaveAt": []
+            }
+          }
+        },
+        "span_info": [
+          [
+            "hotel-inform",
+            "choice",
+            "9",
+            10,
+            14
+          ],
+          [
+            "hotel-inform",
+            "type",
+            "guesthouse hotels",
+            15,
+            28
+          ],
+          [
+            "hotel-inform",
+            "area",
+            "various",
+            32,
+            45
+          ]
+        ],
+        "text": "có chín guesthouse hotels trong các khu vực various . bạn đang hy vọng ở khu vực nào của thị trấn ?"
+      },
+      {
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "bookday",
+              "sunday"
+            ],
+            [
+              "bookpeople",
+              "6"
+            ],
+            [
+              "bookstay",
+              "4"
+            ]
+          ]
+        },
+        "metadata": {},
+        "span_info": [
+          [
+            "hotel-inform",
+            "bookpeople",
+            "6",
+            49,
+            68
+          ],
+          [
+            "hotel-inform",
+            "bookstay",
+            "4",
+            91,
+            108
+          ],
+          [
+            "hotel-inform",
+            "bookday",
+            "sunday",
+            130,
+            146
+          ]
+        ],
+        "text": "không có gì đặc biệt . tôi chỉ cần đặt phòng cho 6 người với tổng số 4 đêm bắt đầu từ sunday . tôi cũng muốn số tham chiếu , xin vui lòng ."
+      },
+      {
+        "dialog_act": {
+          "Booking-Inform": [
+            [
+              "bookpeople",
+              "6"
+            ],
+            [
+              "bookstay",
+              "4"
+            ]
+          ],
+          "Booking-Request": [
+            [
+              "bookpeople",
+              "?"
+            ]
+          ],
+          "Hotel-Inform": [
+            [
+              "stars",
+              "4"
+            ],
+            [
+              "type",
+              "hotels"
+            ]
+          ]
+        },
+        "metadata": {
+          "attraction": {
+            "book": {
+              "booked": []
+            },
+            "semi": {
+              "area": [],
+              "name": [],
+              "type": []
+            }
+          },
+          "hospital": {
+            "book": {
+              "booked": []
+            },
+            "semi": {
+              "department": []
+            }
+          },
+          "hotel": {
+            "book": {
+              "booked": [],
+              "day": [
+                "sunday"
+              ],
+              "people": [
+                "6"
+              ],
+              "stay": [
+                "4"
+              ]
+            },
+            "semi": {
+              "area": [],
+              "internet": [
+                "yes"
+              ],
+              "name": [],
+              "parking": [
+                "yes"
+              ],
+              "pricerange": [
+                "cheap"
+              ],
+              "stars": [],
+              "type": [
+                "guesthouse"
+              ]
+            }
+          },
+          "police": {
+            "book": {
+              "booked": []
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [],
+              "day": [],
+              "people": [],
+              "time": []
+            },
+            "semi": {
+              "area": [],
+              "food": [],
+              "name": [],
+              "pricerange": []
+            }
+          },
+          "taxi": {
+            "book": {
+              "booked": []
+            },
+            "semi": {
+              "arriveBy": [],
+              "departure": [],
+              "destination": [],
+              "leaveAt": []
+            }
+          },
+          "train": {
+            "book": {
+              "booked": [],
+              "people": []
+            },
+            "semi": {
+              "arriveBy": [],
+              "day": [],
+              "departure": [],
+              "destination": [],
+              "leaveAt": []
+            }
+          }
+        },
+        "span_info": [
+          [
+            "hotel-inform",
+            "type",
+            "hotels",
+            28,
+            41
+          ],
+          [
+            "booking-inform",
+            "bookstay",
+            "4",
+            47,
+            64
+          ],
+          [
+            "booking-inform",
+            "bookpeople",
+            "6",
+            100,
+            119
+          ],
+          [
+            "hotel-inform",
+            "stars",
+            "4",
+            131,
+            148
+          ]
+        ],
+        "text": "chắc chắn rồi ! chúng tôi sẽ đặt bạn ở hotels với 4 sao . đặt phòng sẽ dành cho 6 người cho 4 đêm . bạn muốn đặt bao nhiêu phòng ?"
+      },
+      {
+        "dialog_act": {
+          "Hotel-Inform": [
+            [
+              "bookday",
+              "sunday"
+            ],
+            [
+              "bookpeople",
+              "6"
+            ],
+            [
+              "bookstay",
+              "4"
+            ]
+          ]
+        },
+        "metadata": {},
+        "span_info": [
+          [
+            "hotel-inform",
+            "bookpeople",
+            "6",
+            10,
+            29
+          ],
+          [
+            "hotel-inform",
+            "bookstay",
+            "4",
+            82,
+            99
+          ],
+          [
+            "hotel-inform",
+            "bookday",
+            "sunday",
+            117,
+            133
+          ]
+        ],
+        "text": "tốt , đối với 6 , tôi cho rằng tôi sẽ cần ba phòng , cho 4 đêm , bắt đầu từ sunday ."
+      },
+      {
+        "dialog_act": {
+          "Booking-Book": [
+            [
+              "bookday",
+              "sunday"
+            ],
+            [
+              "bookpeople",
+              "6"
+            ],
+            [
+              "bookstay",
+              "4"
+            ],
+            [
+              "name",
+              "alexander bed and breakfast"
+            ],
+            [
+              "ref",
+              "jxvkz7kv"
+            ]
+          ],
+          "Hotel-Inform": [
+            [
+              "address",
+              "517a coldham lane"
+            ]
+          ]
+        },
+        "metadata": {
+          "attraction": {
+            "book": {
+              "booked": []
+            },
+            "semi": {
+              "area": [],
+              "name": [],
+              "type": []
+            }
+          },
+          "hospital": {
+            "book": {
+              "booked": []
+            },
+            "semi": {
+              "department": []
+            }
+          },
+          "hotel": {
+            "book": {
+              "booked": [
+                {
+                  "name": [],
+                  "reference": "jxvkz7kv"
+                }
+              ],
+              "day": [
+                "sunday"
+              ],
+              "people": [
+                "6"
+              ],
+              "stay": [
+                "4"
+              ]
+            },
+            "semi": {
+              "area": [],
+              "internet": [
+                "yes"
+              ],
+              "name": [],
+              "parking": [
+                "yes"
+              ],
+              "pricerange": [
+                "cheap"
+              ],
+              "stars": [],
+              "type": [
+                "guesthouse"
+              ]
+            }
+          },
+          "police": {
+            "book": {
+              "booked": []
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [],
+              "day": [],
+              "people": [],
+              "time": []
+            },
+            "semi": {
+              "area": [],
+              "food": [],
+              "name": [],
+              "pricerange": []
+            }
+          },
+          "taxi": {
+            "book": {
+              "booked": []
+            },
+            "semi": {
+              "arriveBy": [],
+              "departure": [],
+              "destination": [],
+              "leaveAt": []
+            }
+          },
+          "train": {
+            "book": {
+              "booked": [],
+              "people": []
+            },
+            "semi": {
+              "arriveBy": [],
+              "day": [],
+              "departure": [],
+              "destination": [],
+              "leaveAt": []
+            }
+          }
+        },
+        "span_info": [
+          [
+            "booking-book",
+            "name",
+            "alexander bed and breakfast",
+            21,
+            34
+          ],
+          [
+            "hotel-inform",
+            "address",
+            "517a coldham lane",
+            36,
+            53
+          ],
+          [
+            "booking-book",
+            "bookpeople",
+            "6",
+            59,
+            78
+          ],
+          [
+            "booking-book",
+            "bookstay",
+            "4",
+            90,
+            107
+          ],
+          [
+            "booking-book",
+            "bookday",
+            "sunday",
+            123,
+            139
+          ],
+          [
+            "booking-book",
+            "ref",
+            "jxvkz7kv",
+            166,
+            174
+          ]
+        ],
+        "text": "bạn đã đặt phòng tại alexander bed and breakfast , 517a coldham lane , cho 6 cho 4 đêm trong sunday . số tham chiếu của bạn là jxvkz7kv ."
+      },
+      {
+        "dialog_act": {
+          "Restaurant-Inform": [
+            [
+              "area",
+              "centre"
+            ],
+            [
+              "food",
+              "italian"
+            ],
+            [
+              "pricerange",
+              "cheap"
+            ]
+          ]
+        },
+        "metadata": {},
+        "span_info": [
+          [
+            "restaurant-inform",
+            "food",
+            "italian",
+            57,
+            76
+          ],
+          [
+            "restaurant-inform",
+            "area",
+            "centre",
+            114,
+            133
+          ]
+        ],
+        "text": "Cảm ơn ! tôi cũng đang tìm một nhà hàng . lý tưởng là một địa điểm italian có cùng mức giá trong centre ."
+      },
+      {
+        "dialog_act": {
+          "Booking-Inform": [
+            [
+              "name",
+              "ask"
+            ]
+          ]
+        },
+        "metadata": {
+          "attraction": {
+            "book": {
+              "booked": []
+            },
+            "semi": {
+              "area": [],
+              "name": [],
+              "type": []
+            }
+          },
+          "hospital": {
+            "book": {
+              "booked": []
+            },
+            "semi": {
+              "department": []
+            }
+          },
+          "hotel": {
+            "book": {
+              "booked": [
+                {
+                  "name": [
+                    "alexander bed and breakfast"
+                  ],
+                  "reference": "jxvkz7kv"
+                }
+              ],
+              "day": [
+                "sunday"
+              ],
+              "people": [
+                "6"
+              ],
+              "stay": [
+                "4"
+              ]
+            },
+            "semi": {
+              "area": [],
+              "internet": [
+                "yes"
+              ],
+              "name": [
+                "alexander bed and breakfast"
+              ],
+              "parking": [
+                "yes"
+              ],
+              "pricerange": [
+                "cheap"
+              ],
+              "stars": [],
+              "type": [
+                "guesthouse"
+              ]
+            }
+          },
+          "police": {
+            "book": {
+              "booked": []
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [],
+              "day": [],
+              "people": [],
+              "time": []
+            },
+            "semi": {
+              "area": [
+                "centre"
+              ],
+              "food": [
+                "italian"
+              ],
+              "name": [],
+              "pricerange": [
+                "cheap"
+              ]
+            }
+          },
+          "taxi": {
+            "book": {
+              "booked": []
+            },
+            "semi": {
+              "arriveBy": [],
+              "departure": [],
+              "destination": [],
+              "leaveAt": []
+            }
+          },
+          "train": {
+            "book": {
+              "booked": [],
+              "people": []
+            },
+            "semi": {
+              "arriveBy": [],
+              "day": [],
+              "departure": [],
+              "destination": [],
+              "leaveAt": []
+            }
+          }
+        },
+        "span_info": [
+          [
+            "booking-inform",
+            "name",
+            "ask",
+            8,
+            27
+          ]
+        ],
+        "text": "tôi đã tìm thấy nhà hàng ask , bạn có muốn đặt chỗ đó không ?"
+      },
+      {
+        "dialog_act": {
+          "Restaurant-Inform": [
+            [
+              "name",
+              "ask"
+            ]
+          ]
+        },
+        "metadata": {},
+        "span_info": [
+          [
+            "restaurant-inform",
+            "name",
+            "ask",
+            30,
+            49
+          ]
+        ],
+        "text": "là tên của nhà hàng ask nhà hàng ?"
+      },
+      {
+        "dialog_act": {
+          "Booking-Inform": [
+            [
+              "none",
+              "none"
+            ]
+          ],
+          "Restaurant-Inform": [
+            [
+              "name",
+              "ask"
+            ]
+          ]
+        },
+        "metadata": {
+          "attraction": {
+            "book": {
+              "booked": []
+            },
+            "semi": {
+              "area": [],
+              "name": [],
+              "type": []
+            }
+          },
+          "hospital": {
+            "book": {
+              "booked": []
+            },
+            "semi": {
+              "department": []
+            }
+          },
+          "hotel": {
+            "book": {
+              "booked": [
+                {
+                  "name": [
+                    "alexander bed and breakfast"
+                  ],
+                  "reference": "jxvkz7kv"
+                }
+              ],
+              "day": [
+                "sunday"
+              ],
+              "people": [
+                "6"
+              ],
+              "stay": [
+                "4"
+              ]
+            },
+            "semi": {
+              "area": [],
+              "internet": [
+                "yes"
+              ],
+              "name": [
+                "alexander bed and breakfast"
+              ],
+              "parking": [
+                "yes"
+              ],
+              "pricerange": [
+                "cheap"
+              ],
+              "stars": [],
+              "type": [
+                "guesthouse"
+              ]
+            }
+          },
+          "police": {
+            "book": {
+              "booked": []
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [],
+              "day": [],
+              "people": [],
+              "time": []
+            },
+            "semi": {
+              "area": [
+                "centre"
+              ],
+              "food": [
+                "italian"
+              ],
+              "name": [
+                "ask"
+              ],
+              "pricerange": [
+                "cheap"
+              ]
+            }
+          },
+          "taxi": {
+            "book": {
+              "booked": []
+            },
+            "semi": {
+              "arriveBy": [],
+              "departure": [],
+              "destination": [],
+              "leaveAt": []
+            }
+          },
+          "train": {
+            "book": {
+              "booked": [],
+              "people": []
+            },
+            "semi": {
+              "arriveBy": [],
+              "day": [],
+              "departure": [],
+              "destination": [],
+              "leaveAt": []
+            }
+          }
+        },
+        "span_info": [
+          [
+            "restaurant-inform",
+            "name",
+            "ask",
+            30,
+            49
+          ]
+        ],
+        "text": "có , nhà hàng được gọi là ask . bạn có muốn đặt bàn ở đó không ?"
+      },
+      {
+        "dialog_act": {
+          "Restaurant-Inform": [
+            [
+              "bookday",
+              "sunday"
+            ],
+            [
+              "bookpeople",
+              "6"
+            ],
+            [
+              "booktime",
+              "18:45"
+            ]
+          ]
+        },
+        "metadata": {},
+        "span_info": [
+          [
+            "restaurant-inform",
+            "bookpeople",
+            "6",
+            21,
+            40
+          ],
+          [
+            "restaurant-inform",
+            "bookday",
+            "sunday",
+            48,
+            64
+          ],
+          [
+            "restaurant-inform",
+            "booktime",
+            "18:45",
+            68,
+            91
+          ]
+        ],
+        "text": "đúng . đặt phòng cho 6 vào sunday tại 18:45 . Tôi có thể lấy số tham chiếu được không ?"
+      },
+      {
+        "dialog_act": {
+          "Booking-Book": [
+            [
+              "bookday",
+              "sunday"
+            ],
+            [
+              "bookpeople",
+              "6"
+            ],
+            [
+              "booktime",
+              "18:45"
+            ],
+            [
+              "name",
+              "ask"
+            ],
+            [
+              "ref",
+              "y2y8qyby"
+            ]
+          ]
+        },
+        "metadata": {
+          "attraction": {
+            "book": {
+              "booked": []
+            },
+            "semi": {
+              "area": [],
+              "name": [],
+              "type": []
+            }
+          },
+          "hospital": {
+            "book": {
+              "booked": []
+            },
+            "semi": {
+              "department": []
+            }
+          },
+          "hotel": {
+            "book": {
+              "booked": [
+                {
+                  "name": [
+                    "alexander bed and breakfast"
+                  ],
+                  "reference": "jxvkz7kv"
+                }
+              ],
+              "day": [
+                "sunday"
+              ],
+              "people": [
+                "6"
+              ],
+              "stay": [
+                "4"
+              ]
+            },
+            "semi": {
+              "area": [],
+              "internet": [
+                "yes"
+              ],
+              "name": [
+                "alexander bed and breakfast"
+              ],
+              "parking": [
+                "yes"
+              ],
+              "pricerange": [
+                "cheap"
+              ],
+              "stars": [],
+              "type": [
+                "guesthouse"
+              ]
+            }
+          },
+          "police": {
+            "book": {
+              "booked": []
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {
+                  "name": [
+                    "ask"
+                  ],
+                  "reference": "y2y8qyby"
+                }
+              ],
+              "day": [
+                "sunday"
+              ],
+              "people": [
+                "6"
+              ],
+              "time": [
+                "18:45"
+              ]
+            },
+            "semi": {
+              "area": [
+                "centre"
+              ],
+              "food": [
+                "italian"
+              ],
+              "name": [
+                "ask"
+              ],
+              "pricerange": [
+                "cheap"
+              ]
+            }
+          },
+          "taxi": {
+            "book": {
+              "booked": []
+            },
+            "semi": {
+              "arriveBy": [],
+              "departure": [],
+              "destination": [],
+              "leaveAt": []
+            }
+          },
+          "train": {
+            "book": {
+              "booked": [],
+              "people": []
+            },
+            "semi": {
+              "arriveBy": [],
+              "day": [],
+              "departure": [],
+              "destination": [],
+              "leaveAt": []
+            }
+          }
+        },
+        "span_info": [
+          [
+            "booking-book",
+            "bookpeople",
+            "6",
+            24,
+            43
+          ],
+          [
+            "booking-book",
+            "name",
+            "ask",
+            69,
+            88
+          ],
+          [
+            "booking-book",
+            "bookday",
+            "sunday",
+            92,
+            108
+          ],
+          [
+            "booking-book",
+            "booktime",
+            "18:45",
+            112,
+            135
+          ],
+          [
+            "booking-book",
+            "ref",
+            "y2y8qyby",
+            177,
+            185
+          ]
+        ],
+        "text": "tuyệt vời ! đặt phòng của bạn cho 6 tại nhà hàng ask vào sunday lúc 18:45 đã thành công ! số tham chiếu của bạn là y2y8qyby ."
+      },
+      {
+        "dialog_act": {
+          "general-bye": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "metadata": {},
+        "span_info": [],
+        "text": "tôi đã sẵn sàng . Cảm ơn ."
+      },
+      {
+        "dialog_act": {
+          "general-bye": [
+            [
+              "none",
+              "none"
+            ]
+          ]
+        },
+        "metadata": {
+          "attraction": {
+            "book": {
+              "booked": []
+            },
+            "semi": {
+              "area": [],
+              "name": [],
+              "type": []
+            }
+          },
+          "hospital": {
+            "book": {
+              "booked": []
+            },
+            "semi": {
+              "department": []
+            }
+          },
+          "hotel": {
+            "book": {
+              "booked": [
+                {
+                  "name": [
+                    "alexander bed and breakfast"
+                  ],
+                  "reference": "jxvkz7kv"
+                }
+              ],
+              "day": [
+                "sunday"
+              ],
+              "people": [
+                "6"
+              ],
+              "stay": [
+                "4"
+              ]
+            },
+            "semi": {
+              "area": [],
+              "internet": [
+                "yes"
+              ],
+              "name": [
+                "alexander bed and breakfast"
+              ],
+              "parking": [
+                "yes"
+              ],
+              "pricerange": [
+                "cheap"
+              ],
+              "stars": [],
+              "type": [
+                "guesthouse"
+              ]
+            }
+          },
+          "police": {
+            "book": {
+              "booked": []
+            },
+            "semi": {}
+          },
+          "restaurant": {
+            "book": {
+              "booked": [
+                {
+                  "name": [
+                    "ask"
+                  ],
+                  "reference": "y2y8qyby"
+                }
+              ],
+              "day": [
+                "sunday"
+              ],
+              "people": [
+                "6"
+              ],
+              "time": [
+                "18:45"
+              ]
+            },
+            "semi": {
+              "area": [
+                "centre"
+              ],
+              "food": [
+                "italian"
+              ],
+              "name": [
+                "ask"
+              ],
+              "pricerange": [
+                "cheap"
+              ]
+            }
+          },
+          "taxi": {
+            "book": {
+              "booked": []
+            },
+            "semi": {
+              "arriveBy": [],
+              "departure": [],
+              "destination": [],
+              "leaveAt": []
+            }
+          },
+          "train": {
+            "book": {
+              "booked": [],
+              "people": []
+            },
+            "semi": {
+              "arriveBy": [],
+              "day": [],
+              "departure": [],
+              "destination": [],
+              "leaveAt": []
+            }
+          }
+        },
+        "span_info": [],
+        "text": "cảm ơn bạn đã sử dụng tổng đài hỗ trợ towneinfo TPHCM !"
+      }
+    ]
+  }
+}
